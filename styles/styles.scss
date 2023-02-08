@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import "./vars";
+@import "./animations";
+@import "./resets";
+
+@import "./links";
+@import "./lists";
+@import "./scrolls";
+@import "./buttons";
+
+@import "./boxes";
+@import "./cards";
+@import "./blocks";
+
+@import "./header";
+@import "./profile";
+
+
+[class*='box-row-'] {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.box-row-1 {
+    margin-top: 10%;
+}
+
+@import "./aboutme";
+@import "./education";
+@import "./experience";
+@import "./projects";
+@import "./softskills";
+@import "./techskills";
+@import "./misc";
+@import "./hireme";
+@import "./contactme";
+
+@import "./footer";
+
+@import "./breakpoints";
+
+

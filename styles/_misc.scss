@@ -1,0 +1,23 @@
+div.misc {
+    grid-column: 1/6;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+
+        .card {
+
+            .card-title {
+                margin-bottom: 5px;
+            }
+
+            .blocks {
+                .block {
+                    background-color: $primary-color-2;
+                }
+            }
+
+        }
+    }
+
+}

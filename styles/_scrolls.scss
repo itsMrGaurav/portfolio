@@ -1,0 +1,10 @@
+
+.scr > .box-head > .scroll {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: scroll 2s infinite;
+    animation: scroll 2s infinite;
+}

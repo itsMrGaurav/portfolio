@@ -1,0 +1,14 @@
+button {
+    padding: 6px 9px;
+    margin-top: 10px;
+    border: 1px solid $primary-color-1;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    background-color: $primary-color-1;
+}
+
+button:hover {
+    cursor: pointer;
+}
+

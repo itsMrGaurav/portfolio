@@ -1,0 +1,16 @@
+
+$bp-tablet: 768px;
+
+@media screen and (max-width: $bp-tablet) {
+    [class*='box-row-'] > * {
+        grid-column: 1/1 !important;
+    }
+}
+
+$bp-mobile: 480px;
+
+@media screen and (max-width: $bp-mobile) {
+    main {
+        padding: 10% 5%;
+    }
+}

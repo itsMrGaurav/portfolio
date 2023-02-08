@@ -1,0 +1,26 @@
+section.profile {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    img {
+        border: 8px solid white;
+        border-radius: 50%;
+        width: 21%;
+    }
+
+    hr {
+        width: 71px;
+        margin: 13px 0 10px;
+        border-color: var(--primary-color-3);
+    }
+
+    h3 {
+        color: $primary-color-1;
+    }
+
+    h1 {
+        color: white;
+    }
+
+}

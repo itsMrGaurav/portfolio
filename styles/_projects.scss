@@ -1,0 +1,18 @@
+div.projects {
+    grid-column: 6/11;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+        .card {
+            .description {
+                font-size: 12px;
+            }
+
+            .tech-stack {
+                font-size: 13px;
+            }
+        }
+    }
+}
+

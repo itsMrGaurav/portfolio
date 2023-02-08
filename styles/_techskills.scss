@@ -1,0 +1,15 @@
+div.tech-skills {
+    grid-column: 7/11;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+        .card {
+            .card-title {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+}
+

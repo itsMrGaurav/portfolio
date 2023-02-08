@@ -1,0 +1,25 @@
+div.hire-me {
+    grid-column: 6/11;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+        
+        .card {
+
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+
+            .title {
+                font-size: 18px;
+
+            }
+        }
+    }
+
+
+
+}
+
+

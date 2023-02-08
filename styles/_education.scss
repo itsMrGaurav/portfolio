@@ -1,0 +1,18 @@
+div.education {
+    grid-column: 4/10;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+
+        .card {
+
+            .degree, .duration {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+

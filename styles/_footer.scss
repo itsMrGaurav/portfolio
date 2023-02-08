@@ -1,0 +1,14 @@
+footer {
+
+    display: grid;
+    justify-items: center;
+
+    hr {
+        width: 2%;
+    }
+
+    p.copyright {
+        color: white;
+        padding: 10px 0 40px 0;
+    }
+}

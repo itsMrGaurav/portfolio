@@ -1,0 +1,26 @@
+div.experience {
+    grid-column: 1/6;
+    height: 272px;
+    overflow-y: scroll;
+
+    .cards {
+
+        .card {
+            padding-right: 100px;
+            
+            .company {
+                font-size: 15px;
+            }
+
+            .duration {
+                font-size: 12px;
+            }
+
+            ul {
+                list-style:none;
+                font-size: 12px;    
+            }
+        }
+    }
+
+}
