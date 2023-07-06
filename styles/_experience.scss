@@ -21,6 +21,14 @@ div.experience {
                 list-style:none;
                 font-size: 12px;    
             }
+
+            button {
+                background-color: $primary-color-2;
+
+                a {
+                    color: white;
+                }
+            }
         }
     }
 

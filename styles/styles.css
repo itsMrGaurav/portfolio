@@ -144,7 +144,7 @@ div.box:nth-child(2n+1) .card {
   background-color: #8331A9;
 }
 div.box:hover {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 div.box::-webkit-scrollbar {
   width: 0;
@@ -171,8 +171,8 @@ div.blocks .block {
   border-radius: 4px;
   margin-bottom: 5px;
   padding: 5px;
-  color: #FBFAF5;
-  background-color: #8331A9;
+  color: #8331A9;
+  background-color: white;
 }
 div.blocks .block p {
   font-size: 16px;
@@ -251,6 +251,12 @@ div.experience .cards .card ul {
   list-style: none;
   font-size: 12px;
 }
+div.experience .cards .card button {
+  background-color: #fe9440;
+}
+div.experience .cards .card button a {
+  color: white;
+}
 
 div.projects {
   grid-column: 6/11;
@@ -278,6 +284,9 @@ div.tech-skills {
 div.tech-skills .cards .card .card-title {
   margin-bottom: 5px;
 }
+div.tech-skills .cards .card .blocks .block {
+  color: #fe9440;
+}
 
 div.misc {
   grid-column: 1/6;
@@ -288,7 +297,8 @@ div.misc .cards .card .card-title {
   margin-bottom: 5px;
 }
 div.misc .cards .card .blocks .block {
-  background-color: #fe9440;
+  background-color: white;
+  color: #8331A9;
 }
 
 div.hire-me {
