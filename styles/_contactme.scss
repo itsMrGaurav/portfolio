@@ -14,10 +14,14 @@ div.contact-me {
         padding: 20px;
         padding-bottom: 0;
 
-        .social {
+        .social {       
             display: grid;
             align-items: center;
             justify-items: center;
+
+            &:hover {
+                cursor: pointer;
+            }
 
             .icon {
                 background-color: $primary-color-1;
@@ -31,7 +35,13 @@ div.contact-me {
                 font-size: 16px;
                 font-weight: 700;
                 padding-top: 10px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
+
+            
         }
     }
 
